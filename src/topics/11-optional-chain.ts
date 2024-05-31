@@ -38,7 +38,7 @@ const HowManyChildren = ( pasajerp:Passenger) :number=>{
   //const total = pasajerp.children!.length ; // aqui le aseguramos a TypeScript que siempre vendra un valor para este atributo 
   console.log("total hijos");
     console.log(`${pasajerp.name} tiene ${total} hijos`);
-
+    
     return total;
 }
 
